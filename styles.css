@@ -1,3 +1,15 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+	flex-grow: 1;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -158,4 +170,9 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 5%;
+}
+
+#footer {
+	padding-top: 60px;
+	text-align: center;
 }
