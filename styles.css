@@ -1,0 +1,156 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.site-header {
+	background: #9D513A;
+	color: #F6EAE2;
+	padding: 10px 5%;
+	box-shadow: 0 1px 3px #333;
+
+}
+
+.site-header h1 {
+	margin: 100;
+	font-size: 25px;
+	float: left;
+}
+
+.main-nav ul {
+	list-style: none;
+	padding: 200;
+	margin: 0;
+	font-size: 20px
+	color:#07495B;
+	float: right;
+    margin-left: 20px;
+}
+
+.main-nav ul li {
+	display: inline;
+}
+
+.main-nav ul li a {
+	text-decoration: none;
+	color: #F6EAE2;
+}
+
+.intro-text {
+	font-size: 20px;
+}
+
+.billboard {
+	background: #CB9484;
+	text-align: center;
+	padding: 40px;
+}
+.billboard h2 {
+	margin-top: 0;
+}
+
+.images-venmo {
+	width: 200px}
+
+.spin {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+.text-box {
+	font-size: 15px;
+	background: #F6EAE2
+}
+
+.cottage {
+	font-size: 15px;
+	background: #F6EAE2
+}
+
+.main {
+	margin-top: 0;
+	margin-bottom: 5%;
+	margin-right: 20%;
+	margin-left: 20%;
+	background-color: #FFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.schedule-list {
+	background-color: #F6EAE2;
+
+}
+
+.body-text {
+	margin-top: 2%;
+	margin-bottom: 0;
+	margin-right: 20%;
+	margin-left: 5%;
+
+}
+
+.body-text-also {
+	margin-top: 1%;
+	margin-bottom: 0;
+	margin-right: 40%;
+	margin-left: 5%;
+}
+
+.venmo {
+	width: 200px; 
+}
+
+.center {
+	text-align: center;
+	font-family:Didot,serif;
+	font-size:20px
+	margin-left:30%
+	margin-right:30%;
+}
+
+.center-photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 10px;}
+
+  .left {
+  position: absolute;
+  right: 300px;
+  width: 0px;
+  padding: 10px;}
+
+  .squiggle {
+  	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 5%;
+  }
